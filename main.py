@@ -30,7 +30,7 @@ def format_label(label, return_length=9):
             return_string += " ".join(words[: i + 1]) + "\n"
             words = words[i + 1 :]
         return return_string[:-1]
-
+ 
 
 class Node:
     def __init__(self, name, color="red", graph=None, size=300):
